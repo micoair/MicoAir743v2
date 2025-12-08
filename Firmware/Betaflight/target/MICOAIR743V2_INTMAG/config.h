@@ -30,7 +30,7 @@
 #define USE_GYRO
 #define USE_ACCGYRO_BMI270
 #define USE_BARO
-#define USE_BARO_SPL06
+#define USE_BARO_DPS310
 #define USE_SDCARD
 #define USE_MAX7456
 #define USE_MAG

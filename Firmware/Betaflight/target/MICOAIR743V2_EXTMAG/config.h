@@ -29,6 +29,8 @@
 #define USE_ACC
 #define USE_GYRO
 #define USE_ACCGYRO_BMI270
+#define USE_BARO
+#define USE_BARO_DPS310
 #define USE_SDCARD
 #define USE_MAX7456
 #define USE_MAG
@@ -119,6 +121,8 @@
 #define MAX7456_SPI_INSTANCE SPI1
 #define SDIO_USE_4BIT        1
 #define SDIO_DEVICE          SDIODEV_1
+#define BARO_I2C_INSTANCE    I2CDEV_2
+#define DEFAULT_BARO_I2C_ADDRESS 119
 #define MAG_I2C_INSTANCE     I2CDEV_1
 
 #define BEEPER_INVERTED
